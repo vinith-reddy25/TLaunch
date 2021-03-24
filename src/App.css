@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.slider{
+  position: relative;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column{
+  float: left;
+  width: 25%;
+  padding: 15px;  
+}
+
+.image{
+ width: 400px;
+ height: 300px;
+ border-radius: 10px;
+
+}
+
+.right-arrow{
+ position: absolute;
+ top: 50%;
+ right: 1px;
+ font-size: 3rem;
+ color: #61dafb;
+ z-index: 10;
+ cursor: pointer;
+ user-select: none;
+}
+
+.left-arrow{
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  font-size: 3rem;
+  color: #61dafb;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+ }
+ .slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+ }
+ 
+.Banner{
+    float: right;
+    width: 50%;
+    padding: 15px;
+    height: 85vh; 
+}
+
+.HomeAbout{
+  float: right;
+  width: 50%;
+  padding: 15px;
+  height: 60vh; 
+}
+
+.Ban22{
+  float: right;
+  width: 50%;
+  padding: 15px;
+  height: 70vh; 
+}
+
+.hHome{
+  text-align: center;
+}
+.BannerResource{
+  background-color: orangered;
+  margin-top: 20px;
+
+}
+
+.Ban:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.h2Banner{
+  float: left;
+  width: 20%;
+  padding: 15px;
+  height: 50vh;
+     -webkit-box-shadow: 0 0 5px 2px #f2f2f2;
+    -moz-box-shadow: 0 0 5px 2px #f2f2f2;
+    box-shadow: 0 0 5px 2px #f2f2f2;
+
+}
+
+
+
+.h2banner{
+  float: left;
+  width: 5%;
+  padding: 15px;
+  height: 50vh;
+  background-color: #ffff;
+}
+
+.BanAbout{
+  background-image: url("https://www.techlp.org/img/banner_bg.png");
+  width: 90%;
+  padding: 15px;
+  height: 100vh;
+}
+
+.About1{
+  text-align: center;
+  color: #003366;
+}
+
+.home2:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.stu{
+  color: #003366;
+  text-align: center;
+  padding: 15px 110px 15px 110px;
+}
+.dblock{
+
+  display: flex;
+   align-items: center;
+   justify-content: center;;
+  
+}
+
+.db1{
+ 
+  margin: 5px;
+  width: 400px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #ffff;
+}
+.db2{
+ 
+  width: 250px;
+  margin: 5px;
+  font-size: 30px;
+  background-color: white;
+}
+.h3H{
+  color: #003366;
+}
+.h1B{
+  font-weight: bold;
+  color: #003366;
+}
+
+ .slide{
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
